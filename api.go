@@ -3,11 +3,11 @@ package arseeding
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/everpay-go/account"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goar/utils"
 	"github.com/gin-gonic/gin"
+	"github.com/permadao/arseeding/schema"
 	"gorm.io/gorm"
 	"io"
 	"io/ioutil"

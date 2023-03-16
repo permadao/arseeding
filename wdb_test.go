@@ -1,7 +1,7 @@
 package arseeding
 
 import (
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

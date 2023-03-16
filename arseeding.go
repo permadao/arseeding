@@ -1,16 +1,16 @@
 package arseeding
 
 import (
-	"github.com/everFinance/arseeding/config"
-	"github.com/everFinance/arseeding/rawdb"
-	"github.com/everFinance/arseeding/schema"
-	"github.com/everFinance/arseeding/sdk"
 	"github.com/everFinance/everpay-go/common"
 	paySdk "github.com/everFinance/everpay-go/sdk"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
 	"github.com/gin-gonic/gin"
 	"github.com/go-co-op/gocron"
+	"github.com/permadao/arseeding/config"
+	"github.com/permadao/arseeding/rawdb"
+	"github.com/permadao/arseeding/schema"
+	"github.com/permadao/arseeding/sdk"
 	"sync"
 	"time"
 )

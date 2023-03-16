@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/everFinance/arseeding"
-	"github.com/everFinance/arseeding/common"
 	"github.com/everFinance/goar/types"
+	"github.com/permadao/arseeding"
+	"github.com/permadao/arseeding/common"
 	"log"
 	"os"
 	"os/signal"

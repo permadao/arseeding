@@ -1,9 +1,9 @@
 package everpay_sync
 
 import (
-	"github.com/everFinance/arseeding/sdk"
 	"github.com/everFinance/goar"
 	"github.com/go-co-op/gocron"
+	"github.com/permadao/arseeding/sdk"
 	"time"
 )
 

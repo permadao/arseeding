@@ -1,10 +1,10 @@
 package arweave_pool_broadcast
 
 import (
-	"github.com/everFinance/arseeding/sdk"
 	"github.com/everFinance/everpay-go/common"
 	"github.com/everFinance/goar"
 	"github.com/go-co-op/gocron"
+	"github.com/permadao/arseeding/sdk"
 	"sync"
 	"time"
 )

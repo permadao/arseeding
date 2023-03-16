@@ -1,6 +1,6 @@
 package everpay_sync
 
-import "github.com/everFinance/arseeding/example"
+import "github.com/permadao/arseeding/example"
 
 func (e *EverPaySync) runJobs() {
 	e.scheduler.Every(30).Seconds().SingletonMode().Do(e.PostToArseeding)

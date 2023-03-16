@@ -1,7 +1,7 @@
 package arseeding
 
 import (
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

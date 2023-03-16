@@ -3,7 +3,7 @@ package rawdb
 import (
 	"bytes"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	"io"
 )
 

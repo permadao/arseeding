@@ -1,9 +1,9 @@
 package arseeding
 
 import (
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/utils"
+	"github.com/permadao/arseeding/schema"
 )
 
 func (s *Arseeding) runTask() {

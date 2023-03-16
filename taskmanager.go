@@ -3,9 +3,9 @@ package arseeding
 import (
 	"errors"
 	"fmt"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
+	"github.com/permadao/arseeding/schema"
 	"strings"
 	"sync"
 	"time"

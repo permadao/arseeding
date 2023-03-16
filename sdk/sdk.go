@@ -3,12 +3,12 @@ package sdk
 import (
 	"encoding/json"
 	"errors"
-	arseedSchema "github.com/everFinance/arseeding/schema"
-	"github.com/everFinance/arseeding/sdk/schema"
 	paySchema "github.com/everFinance/everpay-go/pay/schema"
 	paySdk "github.com/everFinance/everpay-go/sdk"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
+	arseedSchema "github.com/permadao/arseeding/schema"
+	"github.com/permadao/arseeding/sdk/schema"
 	"math/big"
 )
 

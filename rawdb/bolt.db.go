@@ -2,7 +2,7 @@ package rawdb
 
 import (
 	"errors"
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	bolt "go.etcd.io/bbolt"
 	"os"
 	"path"

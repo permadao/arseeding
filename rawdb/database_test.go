@@ -2,7 +2,7 @@ package rawdb
 
 import (
 	"fmt"
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	"github.com/stretchr/testify/assert"
 	"sort"
 	"testing"

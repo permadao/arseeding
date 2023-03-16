@@ -2,11 +2,11 @@ package bundle_item
 
 import (
 	"encoding/json"
-	"github.com/everFinance/arseeding/sdk"
 	paySdk "github.com/everFinance/everpay-go/sdk"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goether"
+	"github.com/permadao/arseeding/sdk"
 	"math/big"
 	"testing"
 )

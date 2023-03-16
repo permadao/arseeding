@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goar/utils"
+	"github.com/permadao/arseeding/schema"
 )
 
 func handleManifest(maniData []byte, path string, db *Store) ([]types.Tag, []byte, error) {

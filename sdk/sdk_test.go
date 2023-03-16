@@ -1,10 +1,10 @@
 package sdk
 
 import (
-	"github.com/everFinance/arseeding/sdk/schema"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goether"
+	"github.com/permadao/arseeding/sdk/schema"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

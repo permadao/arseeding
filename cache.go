@@ -3,9 +3,9 @@ package arseeding
 import (
 	"encoding/json"
 	"errors"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
+	"github.com/permadao/arseeding/schema"
 	"sort"
 	"sync"
 	"time"

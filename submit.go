@@ -3,9 +3,9 @@ package arseeding
 import (
 	"errors"
 	"fmt"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goar/utils"
+	"github.com/permadao/arseeding/schema"
 	"gorm.io/gorm"
 	"math/big"
 	"strconv"

@@ -4,10 +4,10 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"encoding/json"
-	"github.com/everFinance/arseeding/rawdb"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goar/utils"
+	"github.com/permadao/arseeding/rawdb"
+	"github.com/permadao/arseeding/schema"
 )
 
 type Store struct {
