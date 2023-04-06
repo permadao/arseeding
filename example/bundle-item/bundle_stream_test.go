@@ -1,10 +1,10 @@
 package bundle_item
 
 import (
-	"github.com/everFinance/arseeding/sdk"
 	"github.com/everFinance/goar"
 	"github.com/everFinance/goar/types"
 	"github.com/everFinance/goether"
+	"github.com/permadao/arseeding/sdk"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"testing"
@@ -50,7 +50,7 @@ func TestPostNativeDataStream(t *testing.T) {
 	if err != nil {
 		panic(err)
 	}
-	res, err := arseedSdk.SubmitNativeData("arseed-abc", data, "video/mp4", map[string]string{"Content-Type": "video/mp4", "Name": "test"})
+	res, err := arseedSdk.SubmitNativeData("arseed-abc", "usdc", data, "video/mp4", map[string]string{"Content-Type": "video/mp4", "Name": "test"})
 	if err != nil {
 		panic(err)
 	}

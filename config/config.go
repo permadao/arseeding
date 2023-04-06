@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/everFinance/arseeding/config/schema"
 	"github.com/go-co-op/gocron"
+	"github.com/permadao/arseeding/config/schema"
 	"time"
 )
 

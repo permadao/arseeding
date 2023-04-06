@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/everFinance/arseeding/config/schema"
 	"github.com/everFinance/everpay-go/common"
+	"github.com/permadao/arseeding/config/schema"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

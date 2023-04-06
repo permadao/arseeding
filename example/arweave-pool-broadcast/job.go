@@ -1,6 +1,6 @@
 package arweave_pool_broadcast
 
-import "github.com/everFinance/arseeding/example"
+import "github.com/permadao/arseeding/example"
 
 func (b *BcPool) runJobs() {
 	b.scheduler.Every(30).Seconds().SingletonMode().Do(b.updatePendingTxIds)

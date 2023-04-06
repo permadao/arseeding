@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/everFinance/arseeding/schema"
+	"github.com/permadao/arseeding/schema"
 	"io"
 	"os"
 	"reflect"

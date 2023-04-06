@@ -3,8 +3,8 @@ package arseeding
 import (
 	"encoding/binary"
 	"encoding/json"
-	"github.com/everFinance/arseeding/schema"
 	"github.com/everFinance/goar/types"
+	"github.com/permadao/arseeding/schema"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"sort"
